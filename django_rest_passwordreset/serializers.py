@@ -17,7 +17,7 @@ __all__ = [
 ]
 
 
-class EmailSerializer(serializers.Serializer):
+class CharSerializer(serializers.Serializer):
     email = serializers.EmailField()
 
 
